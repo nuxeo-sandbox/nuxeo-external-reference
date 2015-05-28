@@ -1,5 +1,7 @@
 # nuxeo-external-reference
 ===
+QA Status: [![Build Status](https://qa.nuxeo.org/jenkins/view/sandbox/job/sandbox_sandbox-nuxeo-external-reference-master/badge/icon)](https://qa.nuxeo.org/jenkins/view/sandbox/job/sandbox_sandbox-nuxeo-external-reference-master/)
+
 
 This plugin enables to store external references to nuxeo using automation operations. The use case if for external systems like portals that reference Nuxeo Documents and want to notify Nuxeo of the usage. So that Nuxeo knows that the document is being used in a external system.
 
