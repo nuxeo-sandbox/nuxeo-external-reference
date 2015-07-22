@@ -24,7 +24,6 @@ import org.nuxeo.ecm.core.api.repository.RepositoryManager;
 import org.nuxeo.ecm.core.api.security.ACE;
 import org.nuxeo.ecm.core.api.security.impl.ACLImpl;
 import org.nuxeo.ecm.core.api.security.impl.ACPImpl;
-import org.nuxeo.ecm.core.test.CoreFeature;
 import org.nuxeo.ecm.directory.Session;
 import org.nuxeo.ecm.directory.api.DirectoryService;
 import org.nuxeo.ecm.platform.test.PlatformFeature;
@@ -47,7 +46,7 @@ import com.google.inject.Inject;
  * @author fvadon
  */
 @RunWith(FeaturesRunner.class)
-@Features({ PlatformFeature.class, CoreFeature.class,
+@Features({ PlatformFeature.class,
         EmbeddedAutomationServerFeature.class })
 @Deploy({ "org.nuxeo.labs.reference" })
 public class ExternalRefTest extends AbstractExternalReferenceActions {
