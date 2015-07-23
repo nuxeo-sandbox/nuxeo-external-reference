@@ -67,10 +67,10 @@ public class ExternalRefHippoTest extends AbstractExternalReferenceHippoActions{
 
     }
 
-    @Ignore("Bound to a specific Hippo instance")
+    //@Ignore("Bound to a specific Hippo instance")
     @Test
     public void hippoRefsTest() throws IOException {
-        String nuxeoUID= "b5df01fd-51b6-447b-a80c-a6b050c87e54";
+        String nuxeoUID= "94de6544-9c3d-42c6-b566-f8dc7d23d336";
         List<String> hippoRefs = getRefsForDocumentFromHippo(nuxeoUID);
         assertNotNull(hippoRefs);
 

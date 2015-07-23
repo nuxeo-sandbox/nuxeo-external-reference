@@ -108,7 +108,7 @@ public class AbstractExternalReferenceHippoActions extends
         ObjectMapper resultAsObj = new ObjectMapper();
         JsonNode rootNode = resultAsObj.readTree(restResult);
 
-        JsonNode urls = rootNode.get("urls");
+        JsonNode urls = rootNode.get("siteUrls");
         if (urls != null) {
             for (JsonNode url : urls) {
                 result.add(url.getTextValue());
