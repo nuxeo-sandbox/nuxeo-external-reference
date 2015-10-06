@@ -1,5 +1,5 @@
 <package type="addon" name="nuxeo-externatref" version="@VERSION@">
-  <title>Nuxeo Course Browser</title>
+  <title>Nuxeo External References</title>
   <description>
     <p>This addon activates Nuxeo External Reference</p>
   </description>
@@ -15,7 +15,8 @@
   <platforms>
     <platform>cap-@VERSION@</platform>
     <platform>cap-6.0</platform> 
-    <platform>cap-7.2</platform>
+    <platform>cap-7.3</platform>
+	<platform>cap-7.4</platform>
   </platforms>
 <!-- 
   <dependencies>

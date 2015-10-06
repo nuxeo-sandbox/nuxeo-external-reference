@@ -89,7 +89,7 @@ public class ExternalRefHippoTest extends AbstractExternalReferenceHippoActions{
         assertEquals(label,extractHippoLabelFromLink(ref));
 
     }
-
+    @Ignore("Bound to a specific Hippo instance")
     @Test
     public void updateAllHippoRefsTest() throws IOException {
         updateAllHippoRefsInNuxeo(session);
