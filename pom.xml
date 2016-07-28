@@ -5,11 +5,11 @@
   <parent>
     <groupId>org.nuxeo</groupId>
     <artifactId>nuxeo-addons-parent</artifactId>
-    <version>8.2</version>
+    <version>8.3</version>
   </parent>
   <groupId>org.nuxeo.labs.extref</groupId>
   <artifactId>nuxeo-labs-external-reference-parent</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.5-SNAPSHOT</version>
   <name>Parent Project for Nuxeo External Reference</name>
   <packaging>pom</packaging>
   <description />
@@ -19,7 +19,7 @@
     <module>nuxeo-labs-external-reference-mp</module>
   </modules>
   <properties>
-    <nuxeo.extreference.version>1.0.4-SNAPSHOT</nuxeo.extreference.version>
+    <nuxeo.extreference.version>1.0.5-SNAPSHOT</nuxeo.extreference.version>
   </properties>
   <dependencyManagement>
     <dependencies>
